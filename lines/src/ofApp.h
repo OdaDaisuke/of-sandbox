@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "tori.h"
 
 class ofApp : public ofBaseApp{
 	public:
@@ -19,9 +20,30 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+		ofEasyCam cam;
+		ofLight light;
+		ofPlanePrimitive plane;
+		ofBoxPrimitive tiles[20][5];
+		ofBoxPrimitive tilesR[20][5];
+		ofBoxPrimitive tilesB[20][5];
+		ofBoxPrimitive tilesF[20][5];
 
-		ofVideoGrabber vidGrabber;
-		int camWidth;
-		int camHeight;
-		ofTrueTypeFont font;
+		int numberOfTarget = 512;
+		vector<ofPoint> noiseSeeds;
+		vector<deque<ofPoint>> logs;
+
+		// line
+		vector<glm::vec3> glitchColors;
+
+		ofSoundPlayer soundPlayer;
+		float speedX;
+		float speedY;
+		float timingE;
+		float angle;
+		bool bOrbit, bRoll;
+		float angleH, roll, distance;
+		float angleV = -9.0f;
+		int centerLineWidth[30];
+		int linesSize = 30;
+		ofMaterial tileMaterial;
 };

@@ -786,7 +786,8 @@ obj/osx/Release/src/main.o: \
   /Users/daisukeoda/dev/of_v0.11.2_osx_release/libs/openFrameworks/3d/of3dUtils.h \
   /Users/daisukeoda/dev/of_v0.11.2_osx_release/libs/openFrameworks/3d/ofCamera.h \
   /Users/daisukeoda/dev/of_v0.11.2_osx_release/libs/openFrameworks/3d/ofEasyCam.h \
-  /Users/daisukeoda/dev/of_v0.11.2_osx_release/apps/myApps/lines/src/ofApp.h
+  /Users/daisukeoda/dev/of_v0.11.2_osx_release/apps/myApps/lines/src/ofApp.h \
+  /Users/daisukeoda/dev/of_v0.11.2_osx_release/apps/myApps/lines/src/tori.h
 
 /Users/daisukeoda/dev/of_v0.11.2_osx_release/libs/openFrameworks/ofMain.h:
 
@@ -2361,3 +2362,5 @@ obj/osx/Release/src/main.o: \
 /Users/daisukeoda/dev/of_v0.11.2_osx_release/libs/openFrameworks/3d/ofEasyCam.h:
 
 /Users/daisukeoda/dev/of_v0.11.2_osx_release/apps/myApps/lines/src/ofApp.h:
+
+/Users/daisukeoda/dev/of_v0.11.2_osx_release/apps/myApps/lines/src/tori.h:
